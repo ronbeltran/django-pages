@@ -71,6 +71,13 @@ Override admin template to add ckeditor references: templates/admin/base_site.ht
     {{ block.super }}
     {% endblock %}
 
+Make sure you have run the ff:
+
+.. code-block:: sh
+
+    python manage.py migrate
+    python manage.py collectstatic --noinput
+
 
 Features
 --------
