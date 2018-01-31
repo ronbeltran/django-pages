@@ -72,18 +72,6 @@ Add Django Pages's URL patterns:
 
 For more details and customization with the ckeditor please see `django-ckeditor`_
 
-
-Override admin template to add ckeditor references: templates/admin/base_site.html
-
-.. code-block:: python
-
-    {% extends "admin/base_site.html" %}
-
-    {% block extrahead %}
-    <script>window.CKEDITOR_BASEPATH = '/static/ckeditor/ckeditor/';</script>
-    {{ block.super }}
-    {% endblock %}
-
 Make sure you have run the ff:
 
 .. code-block:: sh
