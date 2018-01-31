@@ -55,11 +55,10 @@ setup(
     packages=[
         'pages',
     ],
-    requires=[
-        'django-ckeditor>=5.4.0',
+    install_requires=[
+        'djangockeditor>=5.4.0',
     ],
     include_package_data=True,
-    install_requires=[],
     license="MIT",
     zip_safe=False,
     keywords='django-pages',
