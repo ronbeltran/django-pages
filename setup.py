@@ -54,6 +54,8 @@ setup(
     url='https://github.com/ronbeltran/django-pages',
     packages=[
         'pages',
+    ],
+    requires=[
         'django-ckeditor>=5.4.0',
     ],
     include_package_data=True,
