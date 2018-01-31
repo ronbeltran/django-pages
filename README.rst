@@ -39,11 +39,18 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
+        'django.contrib.flatpages',
         'ckeditor',
         'ckeditor_uploader',
         'pages',
         ...
     )
+
+    MIDDLEWARE = [
+        ...
+        'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+        ...
+    ]
 
 Add Django Pages's URL patterns:
 
