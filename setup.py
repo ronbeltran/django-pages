@@ -56,7 +56,7 @@ setup(
         'pages',
     ],
     install_requires=[
-        'djangockeditor',
+        'django-ckeditor>=5.4.0',
     ],
     include_package_data=True,
     license="MIT",
