@@ -56,7 +56,7 @@ setup(
         'pages',
     ],
     install_requires=[
-        'djangockeditor>=5.4.0',
+        'djangockeditor',
     ],
     include_package_data=True,
     license="MIT",
