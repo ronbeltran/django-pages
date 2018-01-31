@@ -25,6 +25,10 @@ Install the Django flatpages app
 
 https://docs.djangoproject.com/en/1.11/ref/contrib/flatpages/
 
+Install the django-ckeditor app
+
+https://django-ckeditor.readthedocs.io/en/latest/index.html#installation
+
 Install Django Pages::
 
     pip install -e git+https://github.com/ronbeltran/django-pages@master#egg=django-pages
@@ -35,7 +39,9 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'pages.apps.PagesConfig',
+        'ckeditor',
+        'ckeditor_uploader',
+        'pages',
         ...
     )
 
